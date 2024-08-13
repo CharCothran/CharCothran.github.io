@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+}
+
+canvas {
+  background-color: lightblue;
+  margin: 20px;
+}
+
+img {
+  display: none;
+}
