@@ -1,5 +1,5 @@
 body {
-    background: #aeffa7;
+    background: #9b0000;
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
@@ -60,4 +60,27 @@ main {
 }
 h2, h3 {
     margin: 10px ;
+}
+.content h1 {color:black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a{
+    text-decoration: none;
+    color: #454545;
 }
