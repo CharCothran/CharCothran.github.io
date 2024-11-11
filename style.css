@@ -61,19 +61,18 @@ main {
 h2, h3 {
     margin: 10px ;
 }
-.content h1 {color:black;
+.content h1{color:black;
 }
-
 #portfolio {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 400px;
 }
 
 #portfolio li {
     background: #fff;
     padding: 10px;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 #portfolio li:hover {
