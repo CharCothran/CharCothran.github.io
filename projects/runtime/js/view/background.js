@@ -50,7 +50,10 @@ moon.y = 100;
 moon.scaleX = 1.0;
 moon.scaleY = 1.0;
 background.addChild(moon);
-            
+var circle = draw.circle(10, "white", "LightGray", 2);
+circle.x = canvasWidth * Math.random();
+circle.y = groundY * Math.random();
+background.addChild(circle);
             // TODO 4: Part 1 - Add buildings!     Q: This is before TODO 4 for a reason! Why?
             //RETURN  TO AT LATER POINT DUE TO HEIGHT ISSUES
         
