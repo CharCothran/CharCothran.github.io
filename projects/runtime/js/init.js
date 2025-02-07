@@ -46,7 +46,7 @@ var init = function (window) {
     halle = window.opspark.makeHalle(
       spritesheet,
       particleManager,
-      debugHalleHitZones
+      debugHalleHitZones  = true
     );
     halle.x = halle.getBounds().width * 2;
     halle.y = ground.y - halle.getBounds().height + 3;
