@@ -1,8 +1,8 @@
 body {
-    background: #9b0000;
-    color: rgb(45, 45, 45);
+    background-image:url(images/lmao.png);
+    color: rgb(255, 255, 255);
     padding: 10px;
-    font-family: arial;
+    font-family: monospace;
 }
 #all-contents {
   max-width: 800px;
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(251, 255, 27);
+    background-image: url(images/black-carbon-fiber-texture-background_1017-23627.avif);
    margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -19,7 +19,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0 auto;
 }
@@ -32,12 +32,13 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #008b95;
+    color: #ffffff;
+    font-family: monospace;
 }
 
 /* main container area beneath menu */
 main {
-    background: rgb(255, 200, 3);
+    background-image: url(images/360_F_142456029_GaJ0KkZu8VqUa7QiAxSCnFhO5bJtIayO.jpg);
     display: flex;
 }
 .sidebar {
@@ -61,7 +62,9 @@ main {
 h2, h3 {
     margin: 10px ;
 }
-.content h1{color:black;
+.content h1{color:rgb(255, 255, 255);
+    font-family: monospace;
+    
 }
 #portfolio {
     list-style-type: none;
@@ -69,17 +72,19 @@ h2, h3 {
 }
 
 #portfolio li {
-    background: #fff;
+    background: #bebebe;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
 }
 
 #portfolio li:hover {
-    background: #eee;
+    background: #eeeeee;
 }
 
 #portfolio a{
     text-decoration: none;
-    color: #454545;
+    color: #000000;
+    font-family: monospace;
 }
+

@@ -12,6 +12,7 @@ body {
 
 #score, #highScore {
   color: white;
+  font-family:monospace;
 }
 
 .snake, .apple {
