@@ -13,6 +13,7 @@ body {
 nav {
     background-image: url(images/black-carbon-fiber-texture-background_1017-23627.avif);
    margin: 0 auto;
+   margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
@@ -38,7 +39,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background-image: url(images/360_F_142456029_GaJ0KkZu8VqUa7QiAxSCnFhO5bJtIayO.jpg);
+    background-image: url(images/profilePic.jpg);
     display: flex;
 }
 .sidebar {
@@ -62,13 +63,14 @@ main {
 h2, h3 {
     margin: 10px ;
 }
-.content h1{color:rgb(255, 255, 255);
+.content h1{
+    color:rgb(255, 255, 255);
     font-family: monospace;
     
 }
 #portfolio {
     list-style-type: none;
-    padding-left: 400px;
+    padding-left: 0px;
 }
 
 #portfolio li {
@@ -79,7 +81,7 @@ h2, h3 {
 }
 
 #portfolio li:hover {
-    background: #eeeeee;
+    background: #dddddd;
 }
 
 #portfolio a{
