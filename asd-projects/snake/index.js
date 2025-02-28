@@ -64,15 +64,17 @@ updateInterval = setInterval(update, 100);
  * On each update tick update each bubble's position and check for
  * collisions with the walls.
  */
-function update() {if (hasHitWall() || hasCollidedWithSnake()) {
-  endGame();
-}
+function update() {
+    if (hasHitWall() || hasCollidedWithSnake()) {
+    endGame();
+  }
 
-if (hasCollidedWithApple()) {
-  handleAppleCollision();
+  if (hasCollidedWithApple()) {
+    handleAppleCollision();
+  }
 }
   // TODO 5b: Fill in the update function's code block
-}
+
 
 function checkForNewDirection(event) {
   /* 
@@ -83,20 +85,20 @@ function checkForNewDirection(event) {
   */
 
   if (activeKey === KEY.LEFT) {
-    snake.head.direction = "left";
-    if (activeKey === KEY.RIGHT) {
-      snake.head.direction = "right";
-    }if (activeKey === KEY.UP) {
-      snake.head.direction = "up";
-    }if (activeKey === KEY.DOWN) {
-      snake.head.direction = "down";
-    }
+  snake.head.direction = "left";
+}
+if (activeKey === KEY.RIGHT) {
+  snake.head.direction = "right";
+}if (activeKey === KEY.UP) {
+  snake.head.direction = "up";
+}if (activeKey === KEY.DOWN) {
+  snake.head.direction = "down";
+}
   }
 
   // FILL IN THE REST
 
-  // console.log(snake.head.direction);     // uncomment me!
-}
+
 
 function moveSnake() {
   /* 
@@ -119,18 +121,18 @@ function moveSnake() {
   of snake.head.direction which may be one of "left", "right", "up", or "down"
   */
   if (snake.head.direction === "left") {
-    snake.head.column = snake.head.column - 1;
-  }
-  if (snake.head.direction === "down") {
-    snake.head.row = snake.head.row - 1;
-  }
-  if (snake.head.direction === "right") {
-    snake.head.row = snake.head.row + 1;
-  }if (snake.head.direction === "up") {
-    snake.head.column = snake.head.column + 1;
-  }
-  repositionSquare(snake.head);
+  snake.head.column = snake.head.column - 1;
 }
+if (snake.head.direction === "down") {
+  snake.head.row = snake.head.row - 1;
+}if (snake.head.direction === "up") {
+  snake.head.column = snake.head.row + 1;
+}if (snake.head.direction === "right") {
+  snake.head.row = snake.head.column + 1;
+}
+
+repositionSquare(snake.head);
+                                                          }
 
 function hasHitWall() {
   /* 
@@ -276,7 +278,6 @@ function makeSnakeSquare(row, column) {
 function handleKeyDown(event) {
   // TODO 6a: make the handleKeyDown function register which key is pressed
   activeKey = event.which;
-console.log(activeKey);
 
 }
 
