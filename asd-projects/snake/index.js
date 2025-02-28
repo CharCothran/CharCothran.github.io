@@ -124,9 +124,9 @@ function moveSnake() {
   snake.head.column = snake.head.column - 1;
 }
 if (snake.head.direction === "down") {
-  snake.head.row = snake.head.row - 1;
+  snake.head.row = snake.head.row + 1;
 }if (snake.head.direction === "up") {
-  snake.head.column = snake.head.row + 1;
+  snake.head.column = snake.head.row - 1;
 }if (snake.head.direction === "right") {
   snake.head.row = snake.head.column + 1;
 }
@@ -278,7 +278,7 @@ function makeSnakeSquare(row, column) {
 function handleKeyDown(event) {
   // TODO 6a: make the handleKeyDown function register which key is pressed
   activeKey = event.which;
-
+//console.log(activeKey);
 }
 
 /* Given a gameSquare (which may be a snakeSquare or the apple), position
