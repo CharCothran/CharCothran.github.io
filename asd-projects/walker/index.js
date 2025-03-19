@@ -35,7 +35,7 @@ function runProgram(){
   Called in response to events.
   */
   function handleKeyDown(event) {
- console.log(key.Which)
+ console.log(key)
   }
 
   ////////////////////////////////////////////////////////////////////////////////
