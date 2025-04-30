@@ -46,10 +46,10 @@
     position: relative;
 }
 .bubbleElement {
-    background: url('img/images\ \(1\).jpeg');
+    background-color: green;
     /*border: 2px aqua ridge;*/
 }
 .quickElement {
-    background: url('img/images\ \(2\).jpeg');
+    background-color: blue;
     /*border: 2px firebrick ridge;*/
 }
